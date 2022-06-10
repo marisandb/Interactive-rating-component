@@ -1,13 +1,44 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Overpass', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--VeryDarkBlue);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Overpass', sans-serif;
+}
+
+:root {
+  --Primary: hsl(25, 97%, 53%);
+  --White: hsl(0, 0%, 100%);
+  --LightGrey: hsl(217, 12%, 63%);
+  --MediumGrey: hsl(216, 12%, 54%);
+  --DarkBlue: hsl(213, 19%, 18%);
+  --VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+
+.container {
+  background-color: var(--DarkBlue);
+}
+
+p{
+  font-size: 15px;
+  color: var(--LightGrey);
+}
+
+h1{
+  color: var(--White);
+}
+
+.rating-buttons button{
+  background-color: var(--MediumGrey);
+  color: var(--LightGrey);
+}
+
+.submit-btn {
+  background-color: var(--Primary);
+  color: var(--White);
 }

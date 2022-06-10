@@ -5,9 +5,13 @@ import RatingThankYou from "./pages/rating-thank-you"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
      <Rating />
-     <RatingThankYou />
+     {/* <RatingThankYou /> */}
+     <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/marisandb">Marisa</a>.
+    </div>
     </div>
   );
 }
