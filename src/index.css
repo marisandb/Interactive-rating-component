@@ -21,7 +21,11 @@ code {
 
 
 .container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
   background-color: var(--DarkBlue);
+  border-radius: 12px;
 }
 
 p{
@@ -33,12 +37,22 @@ h1{
   color: var(--White);
 }
 
+.icon{
+  background-color: var(--DarkBlue);
+  border-radius: 50%;
+}
 .rating-buttons button{
-  background-color: var(--MediumGrey);
+  background-color: var(--DarkBlue);
   color: var(--LightGrey);
+  border-radius: 50%;
+}
+.rating-buttons button:hover{
+  background-color: var(--LightGrey);
+  color: var(--White);
 }
 
 .submit-btn {
   background-color: var(--Primary);
   color: var(--White);
+  border-radius: 12px;
 }
